@@ -1,5 +1,5 @@
 # AnberPorts-Joystick
-Emulated keyboard / mouse / joystick for Anbernic rg351p / rg351m / rg351v
+Emulated keyboard / mouse / joystick for OGS
 
 # Howto
 Launch with `sudo ./oga_controls` or add current user to uinput via udev rule to avoid using sudo.
@@ -44,8 +44,8 @@ right_analog_up = pageup
 right_analog_down = pagedown
 right_analog_left = left
 right_analog_right = right
-deadzone_y = 2100
-deadzone_x = 1900
+deadzone_y = -250
+deadzone_x = 200
 ```
 
 Furthermore mouse control can be enabled with the following:
@@ -61,7 +61,7 @@ right_analog_left = mouse_movement_left
 right_analog_right = mouse_movement_right
 ```
 
-Support the project
+Support Kris
 ---
 
 [![Donate](https://github.com/krishenriksen/AnberPorts/raw/master/donate.png)](https://www.paypal.me/krishenriksendk)
